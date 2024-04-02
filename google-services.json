@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "203656540289",
+    "project_id": "artmusic-68d36",
+    "storage_bucket": "artmusic-68d36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203656540289:android:8fab335011e89726c89d80",
+        "android_client_info": {
+          "package_name": "com.artMusic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp-jBeNQABkZh5ZQrIyl7abIiNx9oWkgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
