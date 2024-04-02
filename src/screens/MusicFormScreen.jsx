@@ -30,7 +30,7 @@ const PlantingFormScreen = () => {
       />
       <TextInput
         style={styles.input}
-        placeholder="Data do Plantio"
+        placeholder="Data da musica"
         value={plantDate}
         onChangeText={setPlantDate}
       />
