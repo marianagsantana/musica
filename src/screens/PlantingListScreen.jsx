@@ -38,9 +38,9 @@ const PlayListsListScreen = () => {
         // Atualize o estado com os plantios obtidos do Firestore
         setPlantings(fetchedPlantings);
       } catch (error) {
-        console.error('Erro ao buscar os plantios:', error);
+        console.error('Erro ao buscar as musicas:', error);
         // Informe ao usuário sobre o erro ocorrido
-        alert('Erro ao buscar os plantios. Por favor, tente novamente.');
+        alert('Erro ao buscar as musicas. Por favor, tente novamente.');
       }
     };
 

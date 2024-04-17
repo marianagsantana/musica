@@ -15,7 +15,7 @@ const PlantingFormScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Cadastro de Plantio</Text>
+      <Text style={styles.title}>Cadastro de Musica</Text>
       <TextInput
         style={styles.input}
         placeholder="Nome da Musica"

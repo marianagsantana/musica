@@ -1,11 +1,13 @@
-import React from 'react';
-import {View, Text, TextInput, TouchableOpacity, StyleSheet} from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import firebase from 'firebase/app';
+import 'firebase/auth'; // Importar módulo de autenticação Firebase
 
 const LoginScreen = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const handLogin = () => {
+    const handleLogin = () => { // Renomear a função para handleLogin
         firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
             var user = userCredential.user;
@@ -78,6 +80,6 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
       },
-    });
-    
-    export default LoginScreen;
+});
+
+export default LoginScreen;

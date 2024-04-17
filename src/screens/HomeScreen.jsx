@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, ImageBackground } from 'react-native'; // Importe ImageBackground
 import ButtonComponent from '../components/ButtonComponent';
 import TextComponent from '../components/TextComponent';
 import TitleComponent from '../components/TitleComponent';
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <ImageBackground source={require('../assets/plantacao.png')} style={styles.background}>
+    <ImageBackground source={require('../assets/logo.png')} style={styles.background}>
       <View style={styles.container}>
         <TitleComponent title="Bem-vindo" />
         <ButtonComponent
